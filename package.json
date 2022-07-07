@@ -1,0 +1,27 @@
+{
+  "name": "tdd_api",
+  "version": "1.0.0",
+  "description": "introduction to test driven development with APIs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcusotterstad/TDD-API.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcusotterstad/TDD-API/issues"
+  },
+  "homepage": "https://github.com/marcusotterstad/TDD-API#readme",
+  "devDependencies": {
+    "jest": "^28.1.2",
+    "supertest": "^6.2.4"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1"
+  }
+}
